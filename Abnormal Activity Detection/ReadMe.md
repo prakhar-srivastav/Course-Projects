@@ -2,6 +2,7 @@
 
 is to detect abnormal activity in the surveillence video camera by traning the auto-encoder on large amount of normal scenes as compared to abnormal scenes. The auto-encoder will reconstruct the sequence .While reconstructing , it will only consider the most repeated events and ignore the abnormal activity.
 
+![steps](https://user-images.githubusercontent.com/28844605/85394359-187a8700-b56c-11ea-8679-4c61c01493e8.JPG)
 
 # Dataset used
 
