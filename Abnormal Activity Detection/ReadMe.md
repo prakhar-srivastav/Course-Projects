@@ -1,7 +1,6 @@
 # The objective
 
-the idea is to detect abnormal activity in the surveillence video camera by traning the auto-encoder on large amount of normal scenes as compared to abnormal scenes. The auto-encoder will reconstruct the sequence .While reconstructing , it will only consider the most repeated events and ignore the abnormal activity.
-We will identify the activity as abnormal if there is a cart or a biker presence in a scene or if a person is found walking on a grass.
+The high level idea is to detect anomaly in the video sequence by using auto-encoder model architecture. The dataset contained normal scene as well as abnormal scene. The normal scene are present in abundent while abnormal scene are rare. This is the motivation behind using unsupervised mode of learning for this task.
 
 ![steps](https://user-images.githubusercontent.com/28844605/85394359-187a8700-b56c-11ea-8679-4c61c01493e8.JPG)
 
@@ -14,14 +13,20 @@ The dataset used is from UCSD Anomaly Detection Dataset
 ![vidf4_33_007_frame080_mark](https://user-images.githubusercontent.com/28844605/84398862-13d5da80-ac1e-11ea-873d-5d18cb5503db.png)
 ![vidf1_33_002_frame138_mark](https://user-images.githubusercontent.com/28844605/84398814-07ea1880-ac1e-11ea-94de-2efcab2e856b.png)
 
-Model Architecture-
+# Model Architecture-
 
-![1_rycekfrT7rx6XdZsyB0I6w](https://user-images.githubusercontent.com/28844605/84399433-7af38f00-ac1e-11ea-9995-6cfe6c60d69f.jpeg)
+![model](https://user-images.githubusercontent.com/28844605/89119704-13dfb180-d4ce-11ea-8e40-040739672b99.jpeg)
+Complete Model  Architecture
+
+# Original and Reconstructed sequences-
+![temp1](https://user-images.githubusercontent.com/28844605/89119766-6a4cf000-d4ce-11ea-9a27-f5d689ccba53.PNG)
+![temp2](https://user-images.githubusercontent.com/28844605/89119793-8e103600-d4ce-11ea-9501-edb26b17e180.PNG)
+
+
 
 Following are some useful links related to this project: 
 Normalization-https://mlexplained.com/2018/11/30/an-overview-of-normalization-methods-in-deep-learning/
 Timedistributed layer|:https://machinelearningmastery.com/timedistributed-layer-for-long-short-term-memory-networks-in-python/
 https://stackoverflow.com/questions/42755820/how-to-use-return-sequences-option-and-timedistributed-layer-in-keras
 https://www.dlology.com/blog/how-to-use-return_state-or-return_sequences-in-keras/
-
 Transposed Convolution:https://www.youtube.com/watch?v=96_oGE8WyPg
