@@ -2,7 +2,7 @@
 
 The high level idea is to detect anomaly in the video sequence by using auto-encoder model architecture. The dataset contained normal scene as well as abnormal scene. The normal scene are present in abundent while abnormal scene are rare. This is the motivation behind using unsupervised mode of learning for this task.
 
-![steps](https://user-images.githubusercontent.com/28844605/85394359-187a8700-b56c-11ea-8679-4c61c01493e8.JPG)
+![steps](https://user-images.githubusercontent.com/28844605/89119818-c1eb5b80-d4ce-11ea-950c-3eb3dd892e86.jpeg)
 
 # Dataset used
 
